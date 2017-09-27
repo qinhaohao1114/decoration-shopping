@@ -1,0 +1,14 @@
+security:
+  basic:
+    enabled: true
+  user:
+    name: decoration
+    password: decoration
+server:
+  port: 8761
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+    service-url:
+      defaultZone: http://decoration:decoration@localhost:8761/eureka

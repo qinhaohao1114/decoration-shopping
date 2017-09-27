@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Implementation-Title: decoration-manage-web
+Implementation-Version: 1.0.0-SNAPSHOT
+Built-By: qinhaohao
+Implementation-Vendor-Id: com.decorationStore.manage
+Build-Jdk: 1.8.0_131
+Implementation-URL: http://projects.spring.io/spring-boot/decoration-m
+ anage/decoration-manage-web/
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+

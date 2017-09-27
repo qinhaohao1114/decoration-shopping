@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.decoration.manage.mapper.ItemParamMapper">
+
+
+	<select id="getAllItemParamList" resultType="com.decoration.manage.pojo.ItemParam">
+		SELECT
+		tp.id id,
+		tp.item_cat_id,
+		tp.param_data,
+		tc.`name` item_cat_name
+		FROM
+		tb_item_param tp,
+		tb_item_cat tc
+		WHERE
+		tp.item_cat_id = tc.id
+		ORDER BY
+		tp.updated
+	</select>
+
+
+
+
+</mapper>

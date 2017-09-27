@@ -1,0 +1,18 @@
+server:
+  port: 8082
+  servlet-path: /web/*
+spring:
+  application:
+    name: decoration-web
+#  mvc:
+#    view:
+#      prefix: /WEB-INF/views/
+#      suffix: .jsp
+eureka:
+  client:
+    healthcheck:
+      enabled: true
+    serviceUrl:
+      defaultZone: http://decoration:decoration@localhost:8761/eureka
+  instance:
+    prefer-ip-address: true
